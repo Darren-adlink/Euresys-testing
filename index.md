@@ -1,8 +1,11 @@
 ---
-title: Open eVision 24.10 Release Note
-weight: 310redirect_from: /Release%20note/_index.en.md
+title: Release Note
+weight: 310
+redirect_from: /Release%20note/_index.en.md
 disableToc: true
 ---
+
+# Open eVision 24.10
 
 ## New Features
 
