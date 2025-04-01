@@ -1,30 +1,18 @@
----
-title: Release Note
-weight: 310
-redirect_from: /Release%20note/_index.en.md
-disableToc: true
----
+### EasyBarCode2
+- The EasyBarCode2 algorithm to detect bar codes in images has been modified:
+  - minModuleSize is not used anymore, so you do not need to perform any setup to read small bar codes in large images
+  - On average, the reading is now twice faster. Unfortunately, some edge case reads and failed readings take more time than before
+- The EBarCodeReader now supports the ITF-14 standard
+- The EBarCodeReader did not restore the correct symbologies when reading serialized files from older versions. This has been corrected
+  - Files created before release 22.12 still show the issue with later versions
 
-# Open eVision 24.10
+### Easy3D
+- Use the new class EZMapLeveler to perform the leveling of EZMaps
+![EZMapLeveler](https://documentation.euresys.com/Products/OPEN_EVISION/OPEN_EVISION/en-us/Content/Resources/Images/02_What_s_New/RN2410_Easy3D_EZMapLeveler_thumb_200_0.png)
 
-## New Features
-
-### The new Open eVision Studio (preview)
-![New Open eVision Studio](https://documentation.euresys.com/Products/OPEN_EVISION/OPEN_EVISION/en-us/Content/Resources/Images/02_What_s_New/RN2410_New_Open_eVision_Studio_thumb_200_0.png)
-
-- The new Open eVision Studio is a tool developed to learn, prototype and demonstrate Open eVision.
-- It has the following features:
-  - Definition of complex processing sequences using a graph of tools
-  - Supported graph types: directed acyclic graphs (without loops)
-  - Tool Catalog exposing the available Open eVision tools with search capabilities
-  - Sample Catalog exposing preconfigured projects with sample resources (images, point clouds...). The catalog is searchable by tool names, topics, related keywords...
-  - Code generation in C++ and C# that matches the graphical project (Python coming soon)
-  - Support of the main image formats from Open eVision (EImageBW8, EImageBW16, EImageC24)
-  - Full support of regions of interest (EROI) and flexible regions (ERegion)
-  - Connection to live image sources using eGrabber Studio
-  - Benchmarking: measurement of the real execution time
-  - Free (no license, no activation required, free use of the Open eVision libraries within Studio)
-  - Compatible with Windows (10 minimum) and Linux, Intel and ARM 64-bit architectures
-- The new Open eVision Studio application is included in the full Open eVision installation package and also as an independent installer (only for Windows)
-> **Note**  
-> The current version is a preview, more tools and features will be added in forthcoming releases of Open eVision
+### EasyImage
+- High Dynamic Range image fusion:
+  - The class EasyImage.EHDRFusion provides methods to merge several input images captured with different exposures into a single image, while conserving the details and the visual quality of the source images
+  - For the merging operation, select between the Mertens, Debevec and Robertson algorithms
+  - For the tone mapping operation, select between the Linear, Drago and Mantiuk algorithms
+![HDR Fusion](https://documentation.euresys.com/Products/OPEN_EVISION/OPEN_EVISION/en-us/Content/Resources/Images/02_What_s_New/RN2410_EasyImage_HDR极失]
