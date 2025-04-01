@@ -12,6 +12,4 @@ disableToc: true
 ### The new Open eVision Studio (preview)
 ![New Open eVision Studio](https://documentation.euresys.com/Products/OPEN_EVISION/OPEN_EVISION/en-us/Content/Resources/Images/02_What_s_New/RN2410_New_Open_eVision_Studio_thumb_200_0.png)
 
-- The new Open eVision Studio is a tool developed to learn, prototype and demonstrate Open eVision.
-- It has the following features:
-  - Definition of複雜文件內容，需要分段處理]
+- The completamente
