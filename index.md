@@ -10,6 +10,8 @@ disableToc: true
 ## New Features
 
 ### The new Open eVision Studio (preview)
+![New Open eVision Studio](https://documentation.euresys.com/Products/OPEN_EVISION/OPEN_EVISION/en-us/Content/Resources/Images/02_What_s_New/RN2410_New_Open_eVision_Studio_thumb_200_0.png){ .markdown-img .zoomable }
+
 - The new Open eVision Studio is a tool developed to learn, prototype and demonstrate Open eVision.
 - It has the following features:
   - Definition of complex processing sequences using a graph of tools (directed acyclic - without loop - graphs are supported)
@@ -24,8 +26,6 @@ disableToc: true
   - Compatible with Windows (10 minimum) and Linux, Intel and ARM 64-bit architectures
 - The new Open eVision Studio application is included in the full Open eVision installation package and also as an independent installer (only for Windows)
 - The current version is a preview, more tools and features will be added in forthcoming releases of Open eVision
-
-![New Open eVision Studio](https://documentation.euresys.com/Products/OPEN_EVISION/OPEN_EVISION/en-us/Content/Resources/Images/02_What_s_New/RN2410_New_Open_eVision_Studio_thumb_200_0.png)
 
 ### EasyBarCode2
 - Modified algorithm
