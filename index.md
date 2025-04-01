@@ -10,7 +10,7 @@ disableToc: true
 ## New Features
 
 ### The new Open eVision Studio (preview)
-![New Open eVision Studio](https://documentation.euresys.com/Products/OPEN_EVISION/OPEN_EVISION/en-us/Content/Resources/Images/02_What_s_New/RN2410_New_Open_eVision_Studio_thumb_200_0.png){ .markdown-img .zoomable }
+![New Open eVision Studio](https://documentation.euresys.com/Products/OPEN_EVISION/OPEN_EVISION/en-us/Content/Resources/Images/02_What_s_New/RN2410_New_Open_eVision_Studio_thumb_200_0.png)
 
 - The new Open eVision Studio is a tool developed to learn, prototype and demonstrate Open eVision.
 - It has the following features:
@@ -47,27 +47,27 @@ disableToc: true
 ### Deep Learning tools
 - "Engine setup data" serialization
 
-## Improvements
+### Improvements
 - Updated Euresys logo
 - Deep Learning Studio improvements
 - EasyQRCode and EasyMatrixCode performance improvements
 - Various bug fixes and enhancements
 
-## Solved Issues
+### Solved Issues
 - Fixed multiple issues in Deep Learning tools, Studio, and various modules
 - Resolved memory leaks and crashes
 - Corrected algorithm behaviors
 
-## Breaking Changes
+### Breaking Changes
 - EasyImage histogram analysis changes
 - Easy3D median filter behavior
 - EasyQRCode drawing reference
 
-## Changes
+### Changes
 - Linux system requirements updated
 - Deep Learning tools internal changes
 - EasyObject ECodedImage2 enhancements
 - Qt and Python samples improvements
 
-## Deprecations
+### Deprecations
 - Deprecated methods in EImageEncoder and related classes
